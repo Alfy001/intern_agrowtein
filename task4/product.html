@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .fixed-size-image {
+            width: 300px; /* Reduced width */
+            height: auto; /* Maintain aspect ratio */
+            padding: 20px; /* Added padding */
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+        header {
+            font-size: 0.9em; /* Reduced font size */
+            padding: 10px 0; /* Reduced padding */
+        }
+        .footer-content, .footer-bottom {
+            font-size: 0.9em; /* Reduced font size */
+            padding: 10px 0; /* Reduced padding */
+        }
+        .product-detail {
+            text-align: center; /* Center the content */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Product Details</h1>
+        <nav>
+            <a href="ecom.html">Back to Products</a>
+            <span id="cart-count">0</span>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </nav>
+    </header>
+    <main>
+        <div id="product-container" class="product-detail"></div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your trusted online shopping destination</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@store.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Online Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
